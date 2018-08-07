@@ -1,0 +1,56 @@
+_id
+name
+defense
+attack_power
+base_attack_power
+max_health
+current_health
+base_health
+raceString
+race_num
+xp
+next_lvl_xp
+level
+x_coord
+y_coord
+INSERT INTO char (name, defense, attack_power, base_attack_power,
+ 		max_health, current_health, base_health, 
+		raceString, race_num, xp, next_lvl_xp, level,
+		x_coord, y_coord)
+
+
+
+
+CREATE TABLE character (name TEXT, defense INTEGER,
+		attack_power INTEGER, base_attack_power INTEGER,
+ 		max_health INTEGER, current_health INTEGER,
+		base_health INTEGER, raceString TEXT,	race_num INTEGER,
+		xp INTEGER, next_lvl_xp INTEGER, level INTEGER,
+		x_coord INTEGER, y_coord INTEGER); 
+
+INSERT INTO char (name, defense, attack_power, max_health, current_health,
+		base_health, raceString, race_num, xp, next_lvl_xp, level, y_coord,
+		x_coord)
+	VALUES ('sean', 1, 2, 3, 4, 5, 'human', 6, 7, 8, 9, 10, 11, 12); 
+//JAVA VERSION FOR COLUMN NAMES//
+(COLUMN_NAME, COLUMN_DEFENSE, COLUMN_ATTACK_POWER,
+ COLUMN_MAX_HEALTH, COLUMN_CURRENT_HEALTH,
+COLUMN_BASE_HEALTH, COLUMN_RACE, COLUMN_RACE_NUM, 
+ COLUMN_XP, COLUMN_NEXT_LVL_XP, COLUMN_LEVEL,
+COLUMN_X_COORD, COLUMN_Y_COORD);
+
+
+
+//////////////////////////////////////////////////////////////////////////
+
+
+CREATE TABLE songs (_id INTEGER PRIMARY KEY, track INTEGER, title TEXT NOT NULL, album INTEGER);
+CREATE TABLE albums (_id INTEGER PRIMARY KEY, name TEXT NOT NULL, artist INTEGER);
+CREATE TABLE artists (_id INTEGER PRIMARY KEY, name TEXT NOT NULL);
+CREATE VIEW album_list AS SELECT name FROM albums ORDER BY name COLLATE NOCASE
+/* album_list(name) */;
+CREATE VIEW artist_list as
+select artists.name as artist, albums.name as album,
+songs.track, songs.title from songs
+INNER JOIN albums on songs.album = albums._id
+INNER JOIN artists on albums.artist = artists._id

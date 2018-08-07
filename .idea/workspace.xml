@@ -1,0 +1,830 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6cec7cbc-ff6a-45d9-b47d-91d6b5e42d8c" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="GrogBossEvent.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/SeanMcDonough/GrogBossEvent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainMenu.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/SeanMcDonough/MainMenu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GrogBoss.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/SeanMcDonough/GrogBoss.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataSource.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/SeanMcDonough/DataSource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2125">
+              <caret line="127" column="66" selection-start-line="127" selection-start-column="66" selection-end-line="127" selection-end-column="66" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/SeanMcDonough/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Slime.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/SeanMcDonough/Slime.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="12" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BlueSlime.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/SeanMcDonough/BlueSlime.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="9" column="80" selection-start-line="9" selection-start-column="80" selection-end-line="9" selection-end-column="80" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Monster.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/SeanMcDonough/Monster.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="44" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Ghost.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/SeanMcDonough/Ghost.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="11" column="85" selection-start-line="11" selection-start-column="85" selection-end-line="11" selection-end-column="85" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/SeanMcDonough/Player.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2618">
+              <caret line="161" column="42" selection-start-line="161" selection-start-column="42" selection-end-line="161" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#5659#5660#0" expanded="true" />
+                <element signature="e#6765#6766#0" expanded="true" />
+                <element signature="e#6793#6794#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/SeanMcDonough/TravelState.java" />
+        <option value="$PROJECT_DIR$/src/com/SeanMcDonough/Game.java" />
+        <option value="$PROJECT_DIR$/src/com/SeanMcDonough/MapCreator.java" />
+        <option value="$PROJECT_DIR$/src/com/SeanMcDonough/Coord.java" />
+        <option value="$PROJECT_DIR$/src/com/SeanMcDonough/playerArea.java" />
+        <option value="$PROJECT_DIR$/src/com/SeanMcDonough/PlayerArea.java" />
+        <option value="$PROJECT_DIR$/src/com/SeanMcDonough/mapSquare.java" />
+        <option value="$PROJECT_DIR$/src/com/SeanMcDonough/MapListCreator.java" />
+        <option value="$PROJECT_DIR$/src/com/SeanMcDonough/treeEvent.java" />
+        <option value="$PROJECT_DIR$/src/com/SeanMcDonough/PathEvent.java" />
+        <option value="$PROJECT_DIR$/src/com/SeanMcDonough/TreeEvent.java" />
+        <option value="$PROJECT_DIR$/src/com/SeanMcDonough/RandomMonster.java" />
+        <option value="$PROJECT_DIR$/src/com/SeanMcDonough/MapSquareMonsters.java" />
+        <option value="$PROJECT_DIR$/src/com/SeanMcDonough/PathSquare.java" />
+        <option value="$PROJECT_DIR$/src/com/SeanMcDonough/TreeSquare.java" />
+        <option value="$PROJECT_DIR$/src/com/SeanMcDonough/RandomLevelOne.java" />
+        <option value="$PROJECT_DIR$/src/com/SeanMcDonough/Model/DataSource.java" />
+        <option value="$PROJECT_DIR$/src/com/SeanMcDonough/SaveObj.java" />
+        <option value="$PROJECT_DIR$/src/com/SeanMcDonough/RandomLevelOneMonster.java" />
+        <option value="$PROJECT_DIR$/src/com/SeanMcDonough/LevelObjectCreator.java" />
+        <option value="$PROJECT_DIR$/src/com/SeanMcDonough/RandomMonsterCreator.java" />
+        <option value="$PROJECT_DIR$/src/com/SeanMcDonough/TravelObj.java" />
+        <option value="$PROJECT_DIR$/src/com/SeanMcDonough/RandomLevelTwoMonster.java" />
+        <option value="$PROJECT_DIR$/src/com/SeanMcDonough/Map.java" />
+        <option value="$PROJECT_DIR$/src/com/SeanMcDonough/Printer.java" />
+        <option value="$PROJECT_DIR$/src/com/SeanMcDonough/Human.java" />
+        <option value="$PROJECT_DIR$/src/com/SeanMcDonough/Race.java" />
+        <option value="$PROJECT_DIR$/src/com/SeanMcDonough/Character.java" />
+        <option value="$PROJECT_DIR$/src/com/SeanMcDonough/Elf.java" />
+        <option value="$PROJECT_DIR$/src/com/SeanMcDonough/Event.java" />
+        <option value="$PROJECT_DIR$/src/com/SeanMcDonough/MapSquare.java" />
+        <option value="$PROJECT_DIR$/src/com/SeanMcDonough/Map1.java" />
+        <option value="$PROJECT_DIR$/src/com/SeanMcDonough/Monster.java" />
+        <option value="$PROJECT_DIR$/src/com/SeanMcDonough/Battle.java" />
+        <option value="$PROJECT_DIR$/src/com/SeanMcDonough/MonsterEvent.java" />
+        <option value="$PROJECT_DIR$/src/com/SeanMcDonough/Slime.java" />
+        <option value="$PROJECT_DIR$/src/com/SeanMcDonough/RedSlime.java" />
+        <option value="$PROJECT_DIR$/src/com/SeanMcDonough/BlueSlime.java" />
+        <option value="$PROJECT_DIR$/src/com/SeanMcDonough/Ghost.java" />
+        <option value="$PROJECT_DIR$/src/com/SeanMcDonough/GrogBossEvent.java" />
+        <option value="$PROJECT_DIR$/src/com/SeanMcDonough/MainMenu.java" />
+        <option value="$PROJECT_DIR$/src/com/SeanMcDonough/Player.java" />
+        <option value="$PROJECT_DIR$/src/com/SeanMcDonough/GrogBoss.java" />
+        <option value="$PROJECT_DIR$/src/com/SeanMcDonough/DataSource.java" />
+        <option value="$PROJECT_DIR$/src/com/SeanMcDonough/Main.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-14" />
+    <option name="y" value="435" />
+    <option name="width" value="1448" />
+    <option name="height" value="505" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SeanManWarrior" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SeanManWarrior" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SeanManWarrior" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SeanManWarrior" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SeanManWarrior" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SeanManWarrior" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="SeanMcDonough" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/sqlite-jdbc-3.23.1.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.SeanMcDonough.Main" />
+      <module name="SeanManWarrior" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6cec7cbc-ff6a-45d9-b47d-91d6b5e42d8c" name="Default" comment="" />
+      <created>1525665881545</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1525665881545</updated>
+      <workItem from="1525665883292" duration="42022000" />
+      <workItem from="1525750813639" duration="407000" />
+      <workItem from="1525793044672" duration="12791000" />
+      <workItem from="1526161894352" duration="20125000" />
+      <workItem from="1526184398810" duration="4105000" />
+      <workItem from="1526325514066" duration="7199000" />
+      <workItem from="1526341631605" duration="6811000" />
+      <workItem from="1526417033384" duration="5585000" />
+      <workItem from="1528345636430" duration="234000" />
+      <workItem from="1528345938026" duration="1366000" />
+      <workItem from="1528755593686" duration="1698000" />
+      <workItem from="1528757347939" duration="1692000" />
+      <workItem from="1528759362413" duration="1711000" />
+      <workItem from="1528764437739" duration="1199000" />
+      <workItem from="1528768454797" duration="599000" />
+      <workItem from="1528771435231" duration="1247000" />
+      <workItem from="1528776611384" duration="1025000" />
+      <workItem from="1528779872065" duration="296000" />
+      <workItem from="1528823969351" duration="1034000" />
+      <workItem from="1528825884544" duration="1021000" />
+      <workItem from="1528828850306" duration="599000" />
+      <workItem from="1528833015574" duration="1770000" />
+      <workItem from="1528835805556" duration="1770000" />
+      <workItem from="1528837636848" duration="1771000" />
+      <workItem from="1528839455482" duration="1374000" />
+      <workItem from="1528944305383" duration="1689000" />
+      <workItem from="1528946074240" duration="1766000" />
+      <workItem from="1529031592531" duration="1737000" />
+      <workItem from="1529033385881" duration="1782000" />
+      <workItem from="1529035228273" duration="746000" />
+      <workItem from="1529116860244" duration="1390000" />
+      <workItem from="1529118303923" duration="1391000" />
+      <workItem from="1529120116204" duration="1749000" />
+      <workItem from="1529122042599" duration="854000" />
+      <workItem from="1529162106715" duration="1744000" />
+      <workItem from="1529163888484" duration="1772000" />
+      <workItem from="1529165766861" duration="1775000" />
+      <workItem from="1529167606576" duration="1772000" />
+      <workItem from="1529169419854" duration="379000" />
+      <workItem from="1529339350995" duration="1592000" />
+      <workItem from="1529341096016" duration="1203000" />
+      <workItem from="1529342897813" duration="1872000" />
+      <workItem from="1529350602365" duration="1736000" />
+      <workItem from="1529352376590" duration="1770000" />
+      <workItem from="1529354183846" duration="1784000" />
+      <workItem from="1529356028841" duration="472000" />
+      <workItem from="1529430272168" duration="1648000" />
+      <workItem from="1529431983703" duration="1801000" />
+      <workItem from="1529433859998" duration="1744000" />
+      <workItem from="1529435639670" duration="766000" />
+      <workItem from="1529436803413" duration="233000" />
+      <workItem from="1529454127898" duration="1528000" />
+      <workItem from="1529455901658" duration="1777000" />
+      <workItem from="1529457713154" duration="1870000" />
+      <workItem from="1529459633946" duration="128000" />
+      <workItem from="1529552403477" duration="630000" />
+      <workItem from="1530398831966" duration="146000" />
+      <workItem from="1530998522367" duration="991000" />
+      <workItem from="1531000416855" duration="1638000" />
+      <workItem from="1531002281612" duration="1741000" />
+      <workItem from="1531004176528" duration="1672000" />
+      <workItem from="1531006004305" duration="1770000" />
+      <workItem from="1531007895272" duration="1719000" />
+      <workItem from="1531009766943" duration="1764000" />
+      <workItem from="1531011579589" duration="1966000" />
+      <workItem from="1531013668317" duration="1749000" />
+      <workItem from="1531015480723" duration="530000" />
+      <workItem from="1531018593028" duration="1757000" />
+      <workItem from="1531020464697" duration="1762000" />
+      <workItem from="1531022272859" duration="712000" />
+      <workItem from="1531073786722" duration="1756000" />
+      <workItem from="1531075593409" duration="1025000" />
+      <workItem from="1531085540016" duration="1389000" />
+      <workItem from="1531095441402" duration="663000" />
+      <workItem from="1531098499033" duration="809000" />
+      <workItem from="1531100427087" duration="1050000" />
+      <workItem from="1531109502717" duration="1788000" />
+      <workItem from="1531111339723" duration="912000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="191860000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-14" y="435" width="1448" height="505" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info id="Image Layers" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50069445" side_tool="true" weight="0.667979" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49930555" weight="0.5918635" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Designer" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Learn" order="2" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32939634" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32939634" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/SeanMcDonough/Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/SeanMcDonough/MapSquare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/SeanMcDonough/TreeSquare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/SeanMcDonough/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/SeanMcDonough/Map1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/SeanMcDonough/TravelObj.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="62" column="32" selection-start-line="62" selection-start-column="32" selection-end-line="62" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/SeanMcDonough/PathSquare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="72" selection-start-line="3" selection-start-column="72" selection-end-line="3" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/SeanMcDonough/MainMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/SeanMcDonough/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/SeanMcDonough/TreeEvent.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/SeanMcDonough/Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/SeanMcDonough/MapSquare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/SeanMcDonough/TreeSquare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/SeanMcDonough/Coord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/util/Random.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="134" column="11" selection-start-line="134" selection-start-column="11" selection-end-line="134" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/SeanMcDonough/PathEvent.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/SeanMcDonough/TreeEvent.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/SeanMcDonough/MapListCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/SeanMcDonough/MapSquareMonsters.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/SeanMcDonough/TreeSquare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="98" selection-start-line="4" selection-start-column="98" selection-end-line="4" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.sql/java/sql/DriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="246" column="29" selection-start-line="246" selection-start-column="29" selection-end-line="246" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/SeanMcDonough/SaveObj.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/SeanMcDonough/RandomMonster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/GitHub/SeanManWarrior/src/com/SeanMcDonough/Printer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/SeanMcDonough/RandomMonsterCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/SeanMcDonough/RandomLevelOneMonster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/SeanMcDonough/RandomLevelTwoMonster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/SeanMcDonough/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/SeanMcDonough/Printer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/SeanMcDonough/Race.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/SeanMcDonough/Human.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/SeanMcDonough/Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/SeanMcDonough/Elf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/SeanMcDonough/Battle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="39" column="52" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/SeanMcDonough/MonsterEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/SeanMcDonough/Map1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3179">
+          <caret line="193" column="55" selection-start-line="193" selection-start-column="55" selection-end-line="193" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/SeanMcDonough/PathSquare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="56" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/SeanMcDonough/TravelObj.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="83" column="27" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/SeanMcDonough/MapSquare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/SeanMcDonough/Character.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="79" selection-start-line="16" selection-start-column="72" selection-end-line="16" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/SeanMcDonough/RedSlime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/SeanMcDonough/BlueSlime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="80" selection-start-line="9" selection-start-column="80" selection-end-line="9" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/SeanMcDonough/Ghost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="85" selection-start-line="11" selection-start-column="85" selection-end-line="11" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/SeanMcDonough/Monster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="44" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/SeanMcDonough/GrogBossEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/SeanMcDonough/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2618">
+          <caret line="161" column="42" selection-start-line="161" selection-start-column="42" selection-end-line="161" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5659#5660#0" expanded="true" />
+            <element signature="e#6765#6766#0" expanded="true" />
+            <element signature="e#6793#6794#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/SeanMcDonough/Slime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/SeanMcDonough/GrogBoss.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/SeanMcDonough/MainMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/SeanMcDonough/DataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2125">
+          <caret line="127" column="66" selection-start-line="127" selection-start-column="66" selection-end-line="127" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/SeanMcDonough/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>SeanManWarrior</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>sqlite-jdbc-3.23.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
