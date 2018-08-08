@@ -55,7 +55,7 @@ public class Main {
     }
 
 
-    //Only player stats and x/y coords are loading at the moment. I have not created any other objects that need to be loaded.
+    //Only bossList, player stats and x/y coords are loading at the moment. I have not created any other objects that need to be loaded.
     public static void loadGame(){
         DataSource dataSource = new DataSource();
         if(!dataSource.open()){
