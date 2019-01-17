@@ -8,7 +8,7 @@ public class MonsterEvent implements Event{
     MonsterEvent(Monster monster, Player player){
         this.monster = monster;
         this.player = player;
-        this.battle = new Battle(monster, player);
+        this.battle = new Battle(monster, player, 0, 0);//startX/startY reference the current map's starting x/y
 
     }
 

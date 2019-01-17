@@ -1,8 +1,5 @@
 package com.SeanMcDonough;
 
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.util.ArrayList;
 import java.util.List;
 
 public class Player extends Character {
@@ -71,7 +68,7 @@ public class Player extends Character {
     //Only the attributes special to each race will have a value to be added.
     private void applyRaceAtr(){
         super.setCurrentHealth(race.getBonusStartingHealth() + getCurrentHealth());//health bonus
-        super.setMaxHealth(race.getBonusStartingHealth() + getCurrentHealth());//health bonus
+        super.setMaxHealth(race.getBonusStartingHealth() + this.getMaxHealth());//health bonus
         this.raceNum = race.getRaceNum();//race number
         setDefense((getDefense() + race.getDefenseBuff()));//adding defense buff
         setAttackPower(race.getAttackBuff() + getAttackPower());//adding attack buff

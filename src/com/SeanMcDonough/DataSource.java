@@ -132,26 +132,27 @@ public class DataSource {
                 insertPlayer.setInt(10, player.getXp());
                 insertPlayer.setInt(11, player.getNextLvlXp());
                 insertPlayer.setInt(12, player.getLevel());
-                insertPlayer.setInt(13, travelObj.getX());
-                insertPlayer.setInt(14, travelObj.getY());
+                insertPlayer.setInt(13, player.getXCoord());
+                insertPlayer.setInt(14, player.getYCoord());
                 int affectedRows = insertPlayer.executeUpdate();
                 if(affectedRows == 1){
                     conn.commit();
+                    List<String> bossKeys = player.getBossKeyList();
+                    if(bossKeys != null) {
+                        for (int i = 0; i < bossKeys.size(); i++) {
+                            insertPlayerBossKey.setString(1, bossKeys.get(i));
+                            int affectedRows1 = insertPlayerBossKey.executeUpdate();
+                            if(affectedRows1 == 1){
+                                conn.commit();
+                            } else {
+                                System.out.println("BossKey save failed.");
+                            }
+                        }
+                    }
                 } else{
                     System.out.println("Character save failed.");
                 }
-                List<String> bossKeys = player.getBossKeyList();
-                if(bossKeys != null) {
-                    for (int i = 0; i < bossKeys.size(); i++) {
-                        insertPlayerBossKey.setString(1, bossKeys.get(i));
-                        int affectedRows1 = insertPlayerBossKey.executeUpdate();
-                        if(affectedRows1 == 1){
-                            conn.commit();
-                        } else {
-                            System.out.println("BossKey save failed.");
-                        }
-                    }
-                }
+
 
             }
 

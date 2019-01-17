@@ -10,11 +10,13 @@ public class MapSquare {
     private Monster monster;
     private RandomMonster randomMonster;
 
+
     public MapSquare(Event event, int X, int Y, boolean isAccessible, RandomMonster randomMonster){
         this.coord = new Coord(X, Y);
         this.event = event;
         this.isAccessible = isAccessible;
         this.randomMonster = randomMonster;
+
     }
     public void action(){
         if(event != null) {
@@ -48,8 +50,8 @@ public class MapSquare {
         return randomMonster.generateMonster();
     }
 
-    public void battle(){
-        Battle battle = new Battle(monster, player);
+    public void battle(int startX, int startY){
+        Battle battle = new Battle(monster, player, startX, startY);
         battle.run();
     }
     public void description(){}

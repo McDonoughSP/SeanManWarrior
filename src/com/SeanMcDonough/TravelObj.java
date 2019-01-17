@@ -1,22 +1,23 @@
 package com.SeanMcDonough;
 
 import java.util.ArrayList;
-import java.util.Random;
 import java.util.Scanner;
 
 public class TravelObj {
-    private int X;
-    private int Y;
+
     private Map map;
     private Printer printer;
     private MapSquare mapSquare;
+    private Player player;
 
 
-    public TravelObj(Map map) {
-        X = map.getStartX();
-        Y = map.getStartY();
+    public TravelObj(Map map, Player player) {
+        this.player = player;
         this.map = map;
+        player.setXCoord(map.getStartX());
+        player.setYCoord(map.getStartY());
         this.printer = new Printer();
+
     }
     public void travel(){
         Scanner scanner = new Scanner(System.in);
@@ -45,14 +46,15 @@ public class TravelObj {
                     moveWest();
                     break;
                 case "5":
-                    System.out.println("X: " + X + "\n" +
-                                       "Y: " + Y);
+                    System.out.println("X: " + player.getXCoord() + "\n" +
+                                       "Y: " + player.getYCoord());
                     break;
                 case "7":
-                    printer.printMap(map, X, Y);
+                    printer.printMap(map, player.getXCoord(), player.getYCoord());
                     break;
                 case "0":
                     quit = true;
+                    printer.printMainMenu();
                     break;
                 case "9":
                     printer.printTravelMenu();
@@ -64,11 +66,11 @@ public class TravelObj {
     }
 
     public void moveNorth(){
-        MapSquare mapSquare = map.findMapSquare((X+1), Y);
+        this.mapSquare = map.findMapSquare((player.getXCoord()+1), player.getYCoord());
         if(mapSquare != null) {
             mapSquare.description();
             if (mapSquare.isAccessible()) {
-                this.X++;
+                player.setXCoord((player.getXCoord()+1));
                 travelAction(mapSquare);
             }
         } else{
@@ -76,11 +78,11 @@ public class TravelObj {
         }
     }
     public void moveEast(){
-        MapSquare mapSquare = map.findMapSquare((X), (Y+1));
+        this.mapSquare = map.findMapSquare((player.getXCoord()), (player.getYCoord()+1));
         if(mapSquare != null) {
             mapSquare.description();
             if (mapSquare.isAccessible()) {
-                this.Y++;
+                player.setYCoord((player.getYCoord()+1));
                 travelAction(mapSquare);
             }
         } else{
@@ -89,11 +91,11 @@ public class TravelObj {
     }
 
     public void moveSouth(){
-        MapSquare mapSquare = map.findMapSquare((X-1), Y);
+        this.mapSquare = map.findMapSquare((player.getXCoord()-1), player.getYCoord());
         if(mapSquare != null) {
             mapSquare.description();
             if (mapSquare.isAccessible()) {
-                this.X--;
+                player.setXCoord((player.getXCoord()-1));
                 travelAction(mapSquare);
             }
         } else{
@@ -101,11 +103,11 @@ public class TravelObj {
         }
     }
     public void moveWest(){
-        MapSquare mapSquare = map.findMapSquare((X), (Y-1));
+        this.mapSquare = map.findMapSquare((player.getXCoord()), (player.getYCoord()-1));
         if(mapSquare != null) {
             mapSquare.description();
             if (mapSquare.isAccessible()) {
-                this.Y--;
+                player.setYCoord((player.getYCoord()-1));
                 travelAction(mapSquare);
             }
         } else{
@@ -118,30 +120,14 @@ public class TravelObj {
             mapSquare.action();
         } else{
             if(mapSquare.randomMonsterEncounter()){
-                mapSquare.setPlayer(map.getPlayer());//may be better than initializing with constructor since its not always needed.
+                mapSquare.setPlayer(player);//may be better than initializing with constructor since its not always needed.
                 mapSquare.setMonster(mapSquare.randomMonster());
-                mapSquare.battle();
+                mapSquare.battle(map.getStartX(), map.getStartY());
             }
         }
     }
 
     private void randomMonster(ArrayList<Monster> monsterArrayList){
 
-    }
-
-    public int getX() {
-        return X;
-    }
-
-    public int getY() {
-        return Y;
-    }
-
-    public void setX(int x) {
-        X = x;
-    }
-
-    public void setY(int y) {
-        Y = y;
     }
 }

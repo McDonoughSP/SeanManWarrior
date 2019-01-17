@@ -14,7 +14,7 @@ public abstract class Monster extends Character {
         return this.xp;
     }
 
-    public Player takeTurn(Player player){
+    public void takeTurn(Player player){
         System.out.println("take turn");
         Random rand = new Random();
         int randNum = rand.nextInt(8);
@@ -26,7 +26,7 @@ public abstract class Monster extends Character {
         } else if (randNum == 8 && getCurrentHealth() < (getMaxHealth()/2)) {
             System.out.println(" is retreating!");
         }
-        return player;
+
     }
 
 //    public Player monsterAttack(Player player){

@@ -68,7 +68,6 @@ public class Main {
         //setting the travel object x/y. may be better to write a separate method for the travelobj
         //to load from the database itself. for now it all loads to the player. the travelObj
         //uses the x/y to move around the map.
-        mainMenu.setTravelObjCoords(player.getXCoord(), player.getYCoord());
         mainMenu.run();
 
 

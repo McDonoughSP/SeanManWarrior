@@ -1,13 +1,15 @@
 package com.SeanMcDonough;
-import java.sql.*;
-import java.util.List;
-
 public class GrogBossEvent implements Event {
     //private Connection conn;
     //DataSource dataSource = new DataSource();
     Player player;
-     public GrogBossEvent(Player player){
+    private int startX;
+    private int startY;
+
+     public GrogBossEvent(Player player, int startX, int startY){
         this.player = player;
+        this.startX = startX;
+        this.startY = startY;
         }
         public void description(){
          if(!player.findBossKey("grog")) {
@@ -18,7 +20,7 @@ public class GrogBossEvent implements Event {
         public void action(){
          if(!player.findBossKey("grog")) {
              Monster grog = new GrogBoss();
-             Battle battle = new Battle(grog, player);
+             Battle battle = new Battle(grog, player, startX, startY);
              battle.run();
          }
         }

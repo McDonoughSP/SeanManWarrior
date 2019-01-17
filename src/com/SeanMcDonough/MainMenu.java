@@ -15,7 +15,7 @@ public class MainMenu {
     public MainMenu(Player player, Map map) {
         this.player = player;
         this.printer = new Printer();
-        this.travelObj = new TravelObj(map);
+        this.travelObj = new TravelObj(map, player);
     }
 
     public void run(){
@@ -23,8 +23,8 @@ public class MainMenu {
         String choice;
         boolean quit = false;
         printer.printIntro();
+        printer.printMainMenu();
         while(!quit) {
-            printer.printMainMenu();
             System.out.println("Make your selection:");
             choice = scanner.nextLine();
             switch (choice) {
@@ -44,14 +44,8 @@ public class MainMenu {
                 case "c":
                     System.out.println(player.getName());
                     printer.printCharacterStats(player);
-                    boolean back = false;
                     System.out.print("Press enter");
-                    while(!back){
-                       String input = scanner.nextLine();
-                       if(input != null){
-                           back = true;
-                       }
-                    }
+                    scanner.nextLine();
                     break;
                 case "p":
                     printer.printMainMenu();
@@ -85,10 +79,6 @@ public class MainMenu {
         System.out.println("Recovered 5 health");
     }
 
-    public void setTravelObjCoords(int x, int y){
-        travelObj.setX(x);
-        travelObj.setY(y);
-    }
 
 
 }

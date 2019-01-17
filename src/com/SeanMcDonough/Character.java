@@ -29,7 +29,8 @@ public abstract class Character {
     }
 
     public void recoverHealth(int increase){
-        if((this.currentHealth += increase) > maxHealth){
+        int tempHealth = currentHealth + increase;
+        if(tempHealth > maxHealth){
             this.currentHealth = maxHealth;
         } else{
             this.currentHealth += increase;
@@ -68,11 +69,11 @@ public abstract class Character {
 //        dealDamage(damage, player);
 //        return player;
 //    }
-public void attack(Character player){
+public void attack(Character character){
         int damage;
         System.out.println(this.getName() +" attacks!");
-        damage = calculateAttackDamage(this.getAttackPower(), player.getDefense());
-        dealDamage(damage, player);
+        damage = calculateAttackDamage(this.getAttackPower(), character.getDefense());
+        dealDamage(damage, character);
     }
 
 

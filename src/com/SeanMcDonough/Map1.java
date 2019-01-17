@@ -191,7 +191,7 @@ public class Map1 implements Map {
         mapSquareArrayList.add(mapSquare);
         mapSquare = new PathSquare(null, 5, 4, true, monsterCreator.createLevelTwo());
         mapSquareArrayList.add(mapSquare);
-        mapSquare = new PathSquare(new GrogBossEvent(player), 5, 5, true, monsterCreator.createLevelTwo());
+        mapSquare = new PathSquare(new GrogBossEvent(player, startX, startY), 5, 5, true, monsterCreator.createLevelTwo());
         mapSquareArrayList.add(mapSquare);
 
 

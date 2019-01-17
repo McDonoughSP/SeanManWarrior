@@ -6,48 +6,55 @@ import java.util.Scanner;
 public class Battle {
     private Monster monster;
     private Player player;
+    private int startX;
+    private int startY;
 
-    public Battle(Monster monster, Player player) {
+    public Battle(Monster monster, Player player, int startX, int startY) {
         this.monster = monster;
         this.player = player;
 
     }
 
-    public boolean run() {
+    public void run() {
         boolean quit = false;
+        boolean playerTurn = true;
         int choice;
         Scanner scanner = new Scanner(System.in);
         Printer printer = new Printer();
         printer.printBattleMenu(monster);
+
         while (!quit) {
-            if(!player.getIncapacitated()) {
+            boolean stats = false;
+            boolean spells = false;
+            if(playerTurn) {
                 System.out.println("Make your selection:");
                 choice = scanner.nextInt();
                 switch (choice) {
-                    case 0:
+                    case 0://RETREAT
                         if (retreat()) {
                             System.out.println("Retreat successful!");
                             quit = true;
                         } else {
                             System.out.println("The " + monster.getName() + " blocks your path!");
                         }
-                        monster.takeTurn(this.player);
                         break;
-                    case 1:
+
+                    case 1://ATTACK
                         player.attack(monster);
                         if (checkMonsterDeath(monster.getCurrentHealth())) {
                             quit = true;
                             monster.getLoot(player);
                             break;
                         }
-                        monster.takeTurn(this.player);
                         break;
-                    case 2:
+                    case 2://SPELLS
                         System.out.println("Casting Spells");
+                        spells = true;
                         break;
-                    case 3:
+                    case 3://STATS
                         printer.printCharacterStats(player);
                         boolean back = false;
+                        stats = true;
                         System.out.print("Press enter");
                         while(!back){
                             scanner.nextLine();
@@ -59,17 +66,28 @@ public class Battle {
                         break;
                     default:
                         break;
+                }//switch
+                if(!stats && !spells) {
+                    playerTurn = false;
                 }
-
+            }//if(playerTurn)
+            if(!quit && !stats && !spells) {
+                monster.takeTurn(this.player);
+                playerTurn = true;
             }
 
 
             if(checkPlayerDeath(player.getCurrentHealth())){
                 System.out.println("Thou art dead");
-                return true;
+                System.out.println("Returning to start of map.");
+                player.setXCoord(startX);
+                player.setYCoord(startY);
+                player.setCurrentHealth(1);
+                quit = true;
+
             }
         }//while
-        return false;
+
     }//run
     private boolean checkPlayerDeath(int health){
         if(health<=0){
@@ -82,7 +100,7 @@ public class Battle {
     public boolean retreat(){
         Random rand = new Random();
         int randNum = rand.nextInt(5);
-        if(randNum <= 3) {
+        if(randNum <= 4) {
             return true;
         }
         return false;
